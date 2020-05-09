@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+   int a;
+  
+    printf("Por favor , introduzca el primer número: ");
+    scanf("%d" , &a);
+    printf("\n");
+    
+   
+    if (a%4 == 0 && !(a%100 ==0 && !a%400!=0)){  
+        printf("Es un año bisiesto");
+    
+    }
+    else{
+        printf("Es un año no bisiesto ");
+    
+        return 0;
+    }
+}
